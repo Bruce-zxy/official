@@ -39,7 +39,7 @@
   ],
   "scripts": {
     "build": "atool-build && cp index.html dist",
-    "lint": "",
+    "lint": "git status",
     "lint:es": "eslint --ext .js,.jsx src/",
     "eslint-fix": "eslint --fix src/ --ext .js,.jsx",
     "dev": "dora --plugins webpack",

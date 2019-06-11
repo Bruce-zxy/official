@@ -1,5 +1,5 @@
-import React from 'react';
-import { Row, Col } from 'antd';
+import React from "react";
+import { Row, Col } from "antd";
 
 function Footer() {
   return (
@@ -80,10 +80,10 @@ function Footer() {
         <Col lg={18} sm={24}>
           <span
             style={{
-              lineHeight: '16px',
+              lineHeight: "16px",
               paddingRight: 12,
               marginRight: 11,
-              borderRight: '1px solid rgba(255, 255, 255, 0.55)',
+              borderRight: "1px solid rgba(255, 255, 255, 0.55)"
             }}
           >
             <a
