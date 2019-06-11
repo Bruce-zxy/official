@@ -1,10 +1,10 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import GitHubButton from 'react-github-button';
-import QueueAnim from 'rc-queue-anim';
-import TweenOne from 'rc-tween-one';
-import { Button } from 'antd';
-import BannerSVGAnim from './component/BannerSVGAnim';
+import React from "react";
+import PropTypes from "prop-types";
+import GitHubButton from "react-github-button";
+import QueueAnim from "rc-queue-anim";
+import TweenOne from "rc-tween-one";
+import { Button } from "antd";
+import BannerSVGAnim from "./component/BannerSVGAnim";
 
 function Banner(props) {
   return (
@@ -22,12 +22,12 @@ function Banner(props) {
       )}
       <QueueAnim
         className="banner-title-wrapper"
-        type={props.isMobile ? 'bottom' : 'right'}
+        type={props.isMobile ? "bottom" : "right"}
       >
         <div key="line" className="title-line-wrapper">
           <div
             className="title-line"
-            style={{ transform: 'translateX(-64px)' }}
+            style={{ transform: "translateX(-64px)" }}
           />
         </div>
         <h1 key="h1">NESTIFY</h1>
@@ -40,9 +40,15 @@ function Banner(props) {
           >
             <Button type="primary">预览</Button>
           </a>
-          <Button style={{ margin: '0 16px' }} type="primary" ghost>
-            开始使用
-          </Button>
+          <a
+            href="http://www.nestify.cn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button style={{ margin: "0 16px" }} type="primary" ghost>
+              开始使用
+            </Button>
+          </a>
           <GitHubButton
             key="github-button"
             type="stargazers"
@@ -61,7 +67,7 @@ function Banner(props) {
 }
 
 Banner.propTypes = {
-  isMobile: PropTypes.bool.isRequired,
+  isMobile: PropTypes.bool.isRequired
 };
 
 export default Banner;
