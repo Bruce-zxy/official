@@ -1,6 +1,86 @@
 @import "~antd/lib/style/themes/default.less";
+@primary-color: #ea2845;
+@info-color: #ea2845;
+@processing-color: #ea2845;
 @site-heading-color: #0d1a26;
 @site-text-color: #314659;
 @site-text-color-secondary: #697b8c;
 @site-border-color-split: #ebedf0;
 @border-color: rgba(229, 231, 235, 100);
+
+a,
+a:active,
+a:visited {
+    color: @primary-color;
+}
+
+a:hover {
+    color: #ff798d;
+}
+
+.ant-btn {
+
+}
+
+.ant-btn:hover,
+.ant-btn:focus {
+    color: @primary-color;
+    background-color: #fff;
+    border-color: @primary-color;
+}
+
+.ant-btn-primary {
+    color: #fff;
+    background-color: @primary-color;
+    border-color: @primary-color;
+}
+
+.ant-btn-primary:hover,
+.ant-btn-primary:focus {
+    color: #fff;
+    background-color: @primary-color;
+    border-color: @primary-color;
+}
+
+.ant-btn-background-ghost.ant-btn-primary {
+    color: @primary-color;
+    background-color: transparent;
+    border-color: @primary-color;
+}
+.ant-btn-background-ghost.ant-btn-primary:hover,
+.ant-btn-background-ghost.ant-btn-primary:focus {
+    color: @primary-color;
+    background-color: transparent;
+    border-color: @primary-color;
+}
+
+
+.ant-menu-horizontal>.ant-menu-item>a:hover,
+.ant-menu-horizontal>.ant-menu-submenu>a:hover {
+    color: @primary-color;
+}
+
+#preview-button .ant-btn:hover {
+    color: @primary-color;
+}
+
+.home-wrapper .ant-btn:hover {
+    -webkit-transform: translateY(-4px);
+    -ms-transform: translateY(-4px);
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(234, 40, 69, 0.4);
+}
+
+.title-line-wrapper .title-line {
+    height: 100%;
+    width: 64px;
+    -webkit-transform: translateX(-64px);
+    -ms-transform: translateX(-64px);
+    transform: translateX(-64px);
+    background: -webkit-linear-gradient(left, rgba(234, 40, 69, 0); 0%, @primary-color 100%);
+    background: linear-gradient(to right, rgba(234, 40, 69, 0); 0%, @primary-color 100%);
+}
+.gh-count:hover,
+.gh-count:focus {
+    color: #000;
+}
