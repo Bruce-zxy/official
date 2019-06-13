@@ -16,6 +16,13 @@ function Footer() {
                   基于Nestify的电商解决方案
                 </a>
               </div>
+              <div>
+                <a target="_blank " href="https://github.com/nestify-stack">
+                  Nestify CRM
+                  <span> - </span>
+                  基于Nestify的客户关系管理系统
+                </a>
+              </div>
             </div>
           </Col>
           <Col lg={4} sm={24} xs={24}>
@@ -104,7 +111,7 @@ function Footer() {
             </a>
           </span>
 
-          <span style={{ marginRight: 12 }}>Copyright © Nestify</span>
+          <span style={{ marginRight: 12 }}>Copyright © NestifyStack</span>
         </Col>
       </Row>
     </footer>

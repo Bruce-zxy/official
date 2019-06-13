@@ -1,7 +1,7 @@
-import React from 'react';
-import { OverPack } from 'rc-scroll-anim';
-import QueueAnim from 'rc-queue-anim';
-import { Button } from 'antd';
+import React from "react";
+import { OverPack } from "rc-scroll-anim";
+import QueueAnim from "rc-queue-anim";
+import { Button } from "antd";
 
 function Page2() {
   return (
@@ -24,15 +24,16 @@ function Page2() {
               命令行运行下列命令，快速启动开发服务：
             </p>
             <div key="code1" className="home-code">
+              <div>安装完Node.js、数据库等等相关软件环境后：</div>
               <div>
                 $ <span>git clone</span> git@github.com:ZhiXiao-Lin/nestify.git
                 --depth=1
               </div>
-              <div>$ cd nestify && yarn ic</div>
+              <div>$ cd nestify && yarn && yarn ic</div>
               <div>
-                $ yarn dev{' '}
+                $ yarn dev{" "}
                 <span className="home-code-comment">
-                  打开浏览器访问{' '}
+                  打开浏览器访问{" "}
                   <a target="_blank" href="http://localhost:8000">
                     http://localhost:8000
                   </a>
@@ -42,8 +43,8 @@ function Page2() {
             <p key="p2" className="page-content">
               需要帮助？请先阅读
               <a target="_blank" href="http://docs.nestify.cn/">
-                {' '}
-                开发文档{' '}
+                {" "}
+                开发文档{" "}
               </a>
               ， 如果未能解决，可以到 GitHub 上
               <a href="https://github.com/ZhiXiao-Lin/nestify/issues">

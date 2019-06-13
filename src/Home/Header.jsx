@@ -45,7 +45,7 @@ class Header extends React.Component {
           <Menu.Item key="preview">
             <a
               target="_blank"
-              href="http://www.nestify.cn/"
+              href="https://github.com/ZhiXiao-Lin/nestify"
               rel="noopener noreferrer"
             >
               预览
@@ -87,7 +87,7 @@ class Header extends React.Component {
                 <a
                   id="preview-button"
                   target="_blank"
-                  href="http://www.nestify.cn/"
+                  href="https://github.com/ZhiXiao-Lin/nestify"
                   rel="noopener noreferrer"
                 >
                   <Button icon="eye-o">预览</Button>

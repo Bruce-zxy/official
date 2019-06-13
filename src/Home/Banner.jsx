@@ -34,14 +34,14 @@ function Banner(props) {
         <p key="content">开箱即用的中后台全栈解决方案</p>
         <div key="button" className="button-wrapper">
           <a
-            href="http://www.nestify.cn"
+            href="https://github.com/ZhiXiao-Lin/nestify"
             target="_blank"
             rel="noopener noreferrer"
           >
             <Button type="primary">预览</Button>
           </a>
           <a
-            href="http://www.nestify.cn"
+            href="https://github.com/ZhiXiao-Lin/nestify"
             target="_blank"
             rel="noopener noreferrer"
           >
