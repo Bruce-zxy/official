@@ -24,7 +24,7 @@ function Page2() {
               命令行运行下列命令，快速启动开发服务：
             </p>
             <div key="code1" className="home-code">
-              <div>安装完Node.js、数据库等等相关软件环境后：</div>
+              <div>安装完Node.js、数据库等相关软件环境后：</div>
               <div>
                 $ <span>git clone</span> git@github.com:ZhiXiao-Lin/nestify.git
                 --depth=1
