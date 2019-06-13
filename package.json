@@ -43,7 +43,6 @@
     "lint:es": "eslint --ext .js,.jsx src/",
     "eslint-fix": "eslint --fix src/ --ext .js,.jsx",
     "dev": "dora --plugins webpack",
-    "test": "atool-test-mocha ./**/__tests__/*-test.js",
-    "deploy": "rm -rf dist && npm run build && node ./deploy.js"
+    "test": "atool-test-mocha ./**/__tests__/*-test.js"
   }
 }
