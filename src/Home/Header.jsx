@@ -4,7 +4,7 @@ import { Row, Col, Icon, Menu, Button, Popover } from "antd";
 import { enquireScreen } from "enquire-js";
 
 const LOGO_URL =
-  "https://gw.alipayobjects.com/zos/rmsportal/gVAKqIsuJCepKNbgbSwE.svg";
+  "https://camo.githubusercontent.com/39e56237f2d5b811b704bb15785dcc6d67356208/68747470733a2f2f692e696d6775722e636f6d2f646957375237722e706e67";
 
 class Header extends React.Component {
   state = {
@@ -78,7 +78,6 @@ class Header extends React.Component {
           <Col xxl={4} xl={5} lg={8} md={8} sm={24} xs={24}>
             <div id="logo" to="/">
               <img src={LOGO_URL} alt="logo" />
-              <span>NESTIFY</span>
             </div>
           </Col>
           <Col xxl={20} xl={19} lg={16} md={16} sm={0} xs={0}>
